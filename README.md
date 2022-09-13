@@ -5,25 +5,25 @@ A LAB Things Corporation, uma renomada empresa do ramo IOT, está expandindo sua
 2 REQUISITOS DA APLICAÇÃO
 A aplicação que deverá ser realizada individualmente, deve contemplar os seguintes requisitos:
 
-Uma página de cadastro de usuário, contendo os campos:
-Nome Completo (obrigatório)
-URL de uma foto (opcional)
-E-Mail (obrigatório)
-Senha (obrigatório)
-Validação de Senha (obrigatório)
-Telefone (opcional)
-Endereço
-CEP (obrigatório)
-Logradouro/Endereço (obrigatório)
-Número (obrigatório)
-Bairro (obrigatório)
-Cidade (obrigatório)
-Estado (obrigatório)
-Complemento (opcional)
-Os dados de endereço devem ser pré-preenchidos através da consulta do CEP pela API ViaCEP do IBGE Brasil.
-Os campos obrigatórios e opcionais devem ser validados no método onSubmit.
-Ao cadastrar o usuário, mostrar uma mensagem de feedback de usuário cadastrado com sucesso. Dica: Utilize o método onSubmit com Try/Catch.
-Salve os dados utilizando a api disponibilizada API.
+Uma página de cadastro de usuário, contendo os campos:<br>
+Nome Completo (obrigatório)<br>
+URL de uma foto (opcional)<br>
+E-Mail (obrigatório)<br>
+Senha (obrigatório)<br>
+Validação de Senha (obrigatório)<br>
+Telefone (opcional)<br>
+Endereço<br>
+CEP (obrigatório)<br>
+Logradouro/Endereço (obrigatório)<br>
+Número (obrigatório)<br>
+Bairro (obrigatório)<br>
+Cidade (obrigatório)<br>
+Estado (obrigatório)<br>
+Complemento (opcional)<br>
+Os dados de endereço devem ser pré-preenchidos através da consulta do CEP pela API ViaCEP do IBGE Brasil.<br>
+Os campos obrigatórios e opcionais devem ser validados no método onSubmit.<br>
+Ao cadastrar o usuário, mostrar uma mensagem de feedback de usuário cadastrado com sucesso. Dica: Utilize o método onSubmit com Try/Catch.<br>
+Salve os dados utilizando a api disponibilizada API.<br>
 
 Uma página de login contendo um campo de email e senha.
 O evento onSubmit deverá validar se os campos foram preenchidos, sendo:
